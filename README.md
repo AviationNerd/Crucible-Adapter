@@ -1,3 +1,17 @@
-A discord bot used to request data from the RobotEvents API 
-Implements the OpenSkill Algorithm to predict match outcomes 
-Accesses GPT 4 to summarize the data collected from the API
+# CrucibleAdapter
+
+A discord bot aimed to analyze VRC performance data
+
+## Data Analysis
+
+Requests performance data from the RobotEvents API
+Summarizes a team's performance using GPT-3.5
+Predicts a match's outcome using the OpenSkill Algorithm
+
+## Dependencies
+
+```python
+Discord
+Openai
+dotenv
+requests
