@@ -15,3 +15,7 @@ Discord
 Openai
 dotenv
 requests
+
+## Usage
+
+Modify the .env environment file with your API keys and current season ID 

@@ -9,7 +9,7 @@ import os
 
 load_dotenv()
 # ANCHOR init
-SEASON = 181
+SEASON = os.getenv('SEASON')
 ROBOTEVENTS_API_KEY = os.getenv("ROBOTEVENTS_API_KEY")
 CGPT_API_KEY = os.getenv("CGPT_API_KEY")
 BOT_KEY = os.getenv("BOT_KEY")
